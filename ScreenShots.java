@@ -89,7 +89,6 @@ public class ScreenShots {
 	
 	public void ShootFull(WebDriver driver) //To take a full screenshot using AShot().
 	{
-		//
 		Calendar cal = Calendar.getInstance();
 		Date time = cal.getTime();
 		String sub  = RandomStringUtils.randomAlphabetic(4).toUpperCase();
